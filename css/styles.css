@@ -1,0 +1,59 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto 40px;
+}
+
+h1 {
+  text-align: center;
+  margin: 40px 0 70px 0;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 22px;
+  color: #999;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+  margin: 0 20px 30px;
+  display: none;
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  background: #458B00;
+  text-align: center;
+}
